@@ -1,0 +1,88 @@
+    /* contact */
+    .clearfix::after,
+    .clearfix::before {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .section-center {
+        padding: 1rem 0;
+        width: 90vw;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .contact {
+        padding-top: 1rem;
+    }
+
+    .contact-item {
+        margin-bottom: 3rem;
+    }
+
+    .contact-title {
+        color: var(--primaryColor);
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-text {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid var(--primaryColor);
+        outline: none;
+        margin: 2rem 0;
+        padding: 1.3rem 0;
+        font-weight: bold;
+        background: transparent;
+        font-size: 1.2rem;
+    }
+
+    .form-control::placeholder {
+        color: var(--primaryColor);
+        text-transform: uppercase;
+        letter-spacing: var(--letterSpacing);
+    }
+
+    .btn-contact {
+        text-transform: uppercase;
+        letter-spacing: var(--mainSpacing);
+        color: var(--primaryColor);
+        border: 2px solid var(--primaryColor);
+        background: transparent;
+        padding: 0.9rem 1.6rem;
+        display: inline-block;
+        transition: var(--mainTransition);
+        cursor: pointer;
+    }
+
+    .btn-contact:hover {
+        background: var(--primaryColor);
+        color: var(--mainWhite);
+    }
+
+    /* media queries */
+
+    @media screen and (min-width: 992px) {
+
+        .contact-info,
+        .contact-form {
+            float: left;
+            width: 50%;
+            padding: 0 1rem;
+        }
+
+        .contact-info {
+            padding-top: 1rem;
+        }
+    }
+
+    /* end of contact */
