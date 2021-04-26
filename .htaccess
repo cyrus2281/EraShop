@@ -1,0 +1,8 @@
+#change configartion of httpd.conf for rewrite to on
+RewriteEngine on
+
+RewriteRule ^(index|contact|product|about|categories|search|vendors|login)$ $1.php [NC,L]
+
+
+
+#RewriteRule ^post/(\d+)$ post.php?p_id=$1 [NC,L]

@@ -1,0 +1,30 @@
+/* search */
+.search-extra {
+    display: block;
+}
+
+.items {
+    background: var(--mainWhite);
+}
+
+.item:hover {
+    background: var(--lightGrey);
+}
+
+.no-item-search {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+.search-loading {
+    width: 200px;
+    margin: 3rem auto;
+}
+
+/* hide hero */
+.hero {
+    display: none;
+}
