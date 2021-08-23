@@ -6,7 +6,6 @@
   --lightGrey: #abafb0ff;
   --darkGrey: #949393;
   --lightBlack: #444;
-  --mainYellow: #f3c05a;
   --mainWhite: #f5f5f5ff;
   --mainTransition: all 0.3s linear;
   --slowTransition: all 2s ease-in-out;
@@ -987,9 +986,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.items-center{
-    padding-bottom: 1rem;
-}
 
 .items-title {
   font-size: 1.4rem;
@@ -1217,70 +1213,4 @@ body {
 
 .displayHide {
   display: none;
-}
-
-
-/* pager from boostrap */
-.pager {
-  padding-left: 0;
-  margin: 20px 0;
-  text-align: center;
-  list-style: none;
-}
-
-.pager li {
-  display: inline;
-}
-
-.pager li>a,
-.pager li>span {
-  display: inline-block;
-  padding: 5px 14px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  color: black;
-  margin-right: 0.3rem;
-}
-
-.pager li>a:hover,
-.pager li>a:focus {
-  text-decoration: none;
-  background-color: #eee;
-}
-
-.current-page{
-  color: #f3c05a!important;
-  background:var(--primaryColor) !important;
-}
-
-
-/* btn classes copied from boostrap */
-
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
 }

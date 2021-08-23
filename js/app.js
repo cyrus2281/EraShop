@@ -44,28 +44,6 @@ $(document).ready(function () {
         $(".filter-container").stop().slideToggle(500);
     })
 
-    //owl Carousel
-    $('.slides-center').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        autoplay: true,
-        smartSpeed: 4000,
-        center: true,
-        autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
 })
 // set copyright year date //
 const date = document.querySelector("#date").innerHTML = new Date().getFullYear();
@@ -94,5 +72,34 @@ window.addEventListener("scroll", () => {
 });
 
 
+// smooth scroll //
+const scrollLinks = document.querySelectorAll(".scroll-link");
+scrollLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        links.classList.remove("show-links");
+        const id = e.target.getAttribute("href").slice(1);
+        const element = document.getElementById(id);
+        console.log(element.offsetTop);
+        let position;
+        if (navbar.classList.contains("fixed")) {
+            position = element.offsetTop - 62;
+        } else {
+            position = element.offsetTop - 224;
+        }
+        if (window.innerWidth < 992) {
+            if (navbar.classList.contains("fixed")) {
+                position = element.offsetTop - 62;
+            } else {
+                position = element.offsetTop - 332 - 62;
+            }
+        }
+        window.scrollTo({
+            left: 0,
+            top: position,
+            behavior: "smooth"
+        });
+    });
+});
 
 

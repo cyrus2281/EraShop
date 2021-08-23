@@ -51,8 +51,3 @@
     margin: 1rem;
     text-transform: capitalize;
 }
-
-/* hide hero */
-.hero{
-    display: none;
-}

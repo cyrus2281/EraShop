@@ -1,6 +1,0 @@
-Terms and License for Era Shop Website
-
-All rights retain to the owner Milad Mobini and no one may reproduce, distribute, or create/modify derivative works from this source code.
-Source code is only available for learning and educational assesment and grading purposes.
-
-Copyright(c) 2021, Era Shop. Milad Mobini.

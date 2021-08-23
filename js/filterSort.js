@@ -4,7 +4,6 @@ const filterPriceMax = document.querySelector("#filter-price-range-max");
 const filterRateMin = document.querySelector("#filter-rating-range-min");
 const filterRateMax = document.querySelector("#filter-rating-range-max");
 const ItemsContainer = document.querySelector('.load-content');
-
 //listener for filter button
 document.querySelector('.filter-btn').addEventListener('click', (e) => {
     e.preventDefault();
@@ -27,9 +26,8 @@ document.querySelector('.filter-btn').addEventListener('click', (e) => {
         }
     });
     //check for empty result
-    // checkEmpty();
+    checkEmpty();
 });
-
 //listener for sort button
 document.querySelector('.sort-toggle').addEventListener('click', (e) => {
     if (e.target.dataset.sort) {
