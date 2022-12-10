@@ -34,7 +34,7 @@
           <h3 class="contact-title">
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>email
           </h3>
-          <p class="contact-text">miladmobini@protonmail.com</p>
+          <p class="contact-text">some-email@mail.com</p>
         </div>
         <!-- end of contact item -->
         <!-- contact item -->
@@ -48,7 +48,7 @@
       </article>
       <!-- contact form -->
       <article class="contact-form">
-        <form class="form-group" action="https://formspree.io/f/xvovldld" method="POST">
+        <form class="form-group" action="formspree.com" method="POST">
           <input type="text" name="name" placeholder="name" class="form-control" />
           <input type="email" name="email" placeholder="email" class="form-control" />
           <textarea name="message" rows="3" class="form-control" placeholder="message"></textarea>

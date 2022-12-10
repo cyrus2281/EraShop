@@ -1,7 +1,7 @@
 <?php
 //creating connection to database
 const DB_HOST= "localhost";
-const DB_USER= "milad";
+const DB_USER= "cyrus";
 const DB_PASSWORD= "secret";
 const DB_NAME= "erashop";
 

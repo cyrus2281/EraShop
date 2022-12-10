@@ -13,7 +13,7 @@ adminOnly();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is a sample website simulating an online retail laptop store" />
     <meta name="keywords" content="shop, online, onlineshop, laptop, computer" />
-    <meta name="author" content="Milad Mobini" />
+    <meta name="author" content="Cyrus Mobini" />
     <!-- style css -->
     <link rel="stylesheet" href="../css/styles.css" />
     <!-- favicon -->

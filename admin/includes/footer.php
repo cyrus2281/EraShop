@@ -2,10 +2,10 @@
 <footer class="section footer">
     <!-- footer icons -->
     <div class="footer-icons">
-        <a href="https://instagram.com/milad1mbn?igshid=l5uf53maa010" target="_blank" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/milad1mbn?igshid=l5uf53maa010" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/milad1mbn?igshid=l5uf53maa010" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/milad-mobini-856a1a1b2" target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/cyrusmobini/" target="_blank" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/cyrusmobini/" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/cyrusmobini/" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/cyrusmobini/" target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <!-- copyright -->
     <p class="copyright">

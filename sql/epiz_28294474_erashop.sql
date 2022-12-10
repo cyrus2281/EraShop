@@ -42,9 +42,9 @@ CREATE TABLE `comments` (
 --
 
 INSERT INTO `comments` (`comment_id`, `comment_product_id`, `comment_author`, `comment_email`, `comment_date`, `comment_rating`, `comment_content`) VALUES
-(1, 21, 'Milad Mobini', 'milad@gmail.com', '2021-04-07', 5, 'I loved it'),
-(3, 21, 'Milad Mobini', 'mobi0001@algonquinlive.com', '2021-04-07', 3, 'Another normal laptop'),
-(4, 21, 'Milad Mobini', 'milad@gmail.com', '2021-04-07', 3, 'Awesome products'),
+(1, 21, 'Cyrus Mobini', 'cyrus@gmail.com', '2021-04-07', 5, 'I loved it'),
+(3, 21, 'Cyrus Mobini', 'mobi0001@algonquinlive.com', '2021-04-07', 3, 'Another normal laptop'),
+(4, 21, 'Cyrus Mobini', 'cyrus@gmail.com', '2021-04-07', 3, 'Awesome products'),
 (5, 16, 'John Duo', 'johndoe@email.com', '2021-04-07', 5, 'the dual screen is very usefull'),
 (6, 14, 'Alex', 'alex@email.com', '2021-04-07', 4, 'I Love apple, but could be cheaper'),
 (7, 17, 'nobody', 'nobody@email.com', '2021-04-07', 3, 'I am happy with  my purchase'),
